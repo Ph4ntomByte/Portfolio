@@ -1,0 +1,11 @@
+{
+  "priority": 2,
+  "title": "WalkingBoard Game",
+  "shortDescription": "Java 2D board game with single and multiplayer support, tile-based scoring, and interactive movement logic.",
+  "cover": "https://res.cloudinary.com/your-cloudinary/image/upload/v1656971294/walkingboard_tb.png",
+  "type": "Academic Project",
+  "livePreview": "https://github.com/Ph4ntomByte/walking-board-game",
+  "githubLink": "https://github.com/Ph4ntomByte/walking-board-game",
+  "githubStars": "0 Stars",
+  "siteAge": "4 months old"
+}
