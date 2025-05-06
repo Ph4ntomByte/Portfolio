@@ -1,0 +1,11 @@
+{
+  "priority": 1,
+  "title": "Insta-to-Video TB Bot",
+  "shortDescription": "Telegram bot that downloads Instagram Reels and forwards them in chat using Instaloader and python-telegram-bot.",
+  "cover": "https://res.cloudinary.com/your-cloudinary/image/upload/v1656971294/insta-to-video_tb.png",
+  "type": "Open Source",
+  "livePreview": "https://github.com/Ph4ntomByte/insta-to-video-tb-bot",
+  "githubLink": "https://github.com/Ph4ntomByte/insta-to-video-tb-bot",
+  "githubStars": "0 Stars",
+  "siteAge": "2 months old"
+}

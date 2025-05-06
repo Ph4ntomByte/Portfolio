@@ -1,0 +1,11 @@
+{
+  "priority": 4,
+  "title": "Puzzle Path Builder",
+  "shortDescription": "Vanilla JavaScript puzzle game with save/load state, leaderboards in LocalStorage, and drag-and-draw tile placement.",
+  "cover": "https://res.cloudinary.com/your-cloudinary/image/upload/v1656971294/puzzle-path_tb.png",
+  "type": "Course Assessment",
+  "livePreview": "https://github.com/Ph4ntomByte/web-programming-assessment",
+  "githubLink": "https://github.com/Ph4ntomByte/web-programming-assessment",
+  "githubStars": "0 Stars",
+  "siteAge": "1 year old"
+}
