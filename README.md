@@ -15,7 +15,6 @@
 - **Projects Gallery**: Dynamic project cards with filters and live links
 - **Skills Showcase**: Icon-based skill list with proficiency indicators
 - **Services Section**: Overview of offered services
-- **Testimonials Slider**: Client feedback carousel
 - **Dark/Light Theme** toggle and **Language Switcher**
 - **Responsive Design**: Mobile-first, works on all screen sizes
 - **SEO Optimized**: Metadata, sitemap, robots.txt configured
