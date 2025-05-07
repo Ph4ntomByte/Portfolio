@@ -1,11 +1,9 @@
 {
   "priority": 4,
-  "title": "Puzzle Path Builder",
-  "shortDescription": "Vanilla JavaScript puzzle game with save/load state, leaderboards in LocalStorage, and drag-and-draw tile placement.",
-  "cover": "https://res.cloudinary.com/your-cloudinary/image/upload/v1656971294/puzzle-path_tb.png",
-  "type": "Course Assessment",
-  "livePreview": "https://github.com/Ph4ntomByte/web-programming-assessment",
-  "githubLink": "https://github.com/Ph4ntomByte/web-programming-assessment",
-  "githubStars": "0 Stars",
-  "siteAge": "1 year old"
+  "title": "Insta-to-Video TB Bot",
+  "shortDescription": "A Telegram bot that fetches and forwards Instagram Reels directly in chat, built with Instaloader and Python-Telegram-Bot.",
+  "cover": "/images/insta-to-tg.png",
+  "type": "Open Source",
+  "technologies": ["Python", "Instaloader", "Telegram Bot API"],
+  "githubLink": "https://github.com/Ph4ntomByte/insta-to-video-tb-bot"
 }

@@ -2,10 +2,7 @@
   "priority": 3,
   "title": "CityMANIA",
   "shortDescription": "Java Swing multiplayer city-name game with custom dialogs, dynamic map loading, and real-time validation.",
-  "cover": "https://res.cloudinary.com/your-cloudinary/image/upload/v1656971294/citymania_tb.png",
+  "cover": "/images/city.png",
   "type": "Academic Project",
-  "livePreview": "https://github.com/Ph4ntomByte/CityMANIA",
-  "githubLink": "https://github.com/Ph4ntomByte/CityMANIA",
-  "githubStars": "0 Stars",
-  "siteAge": "5 months old"
+  "githubLink": "https://github.com/Ph4ntomByte/CityMANIA"
 }
