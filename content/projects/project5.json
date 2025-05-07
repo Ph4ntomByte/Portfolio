@@ -1,0 +1,8 @@
+{
+    "priority": 5,
+    "title": "Railway Puzzle Game",
+    "shortDescription": "A browser-based tile-connection puzzle built with plain HTML, CSS and JavaScript—rotate straight, curved or switchable track segments on a grid so that every cell is linked by a single continuous railway.",
+    "cover": "/images/railway.png",
+    "type": "Course Assessment",
+    "githubLink": "https://github.com/Ph4ntomByte/Railways"
+  }
