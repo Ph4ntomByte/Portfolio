@@ -1,4 +1,3 @@
-// Data for portfolio
 import {
   JavaScriptIcon,
   NextjsIcon,
@@ -6,6 +5,10 @@ import {
   ReactIcon,
   TailwindCSS,
   TypescriptIcon,
+  PythonIcon,
+  JavaIcon,
+  CssIcon,
+  DockerIcon
 } from '../utils/icons'
 
 // Service Data
@@ -13,36 +16,53 @@ export const serviceData = [
   {
     icon: ReactIcon,
     title: 'React.js Development',
-    shortDescription: 'Building component-driven UIs with React and hooks.',
+    shortDescription: 'Component-driven UIs with hooks and state management.',
   },
   {
     icon: NextjsIcon,
     title: 'Next.js & SSG/SSR',
-    shortDescription: 'Creating SEO-friendly, server-rendered React apps.',
+    shortDescription: 'SEO-friendly, server-rendered React applications.',
   },
   {
     icon: NodejsIcon,
     title: 'Node.js Backend',
-    shortDescription: 'Developing REST APIs and real‑time services.',
+    shortDescription: 'RESTful APIs and real-time services with Express.js.',
   },
   {
-    icon: TailwindCSS,
-    title: 'Tailwind CSS Styling',
-    shortDescription: 'Designing responsive UIs with utility-first Tailwind CSS.',
+    icon: PythonIcon,
+    title: 'Python Scripting',
+    shortDescription: 'Automation, bots, and data processing with Python.',
+  },
+  {
+    icon: JavaIcon,
+    title: 'Java Development',
+    shortDescription: 'Desktop and server-side applications with Java & Swing.',
+  },
+  {
+    icon: CssIcon,
+    title: 'CSS & Tailwind',
+    shortDescription: 'Responsive, utility-first styling with Tailwind CSS.',
+  },
+  {
+    icon: DockerIcon,
+    title: 'Containerization',
+    shortDescription: 'Dockerizing apps for consistent deployment.',
   },
 ]
 
-// Skill List
 export const skillList = [
   { name: 'JavaScript', icon: JavaScriptIcon },
   { name: 'TypeScript', icon: TypescriptIcon },
   { name: 'React.js', icon: ReactIcon },
   { name: 'Next.js', icon: NextjsIcon },
   { name: 'Node.js', icon: NodejsIcon },
+  { name: 'Python', icon: PythonIcon },
+  { name: 'Java', icon: JavaIcon },
+  { name: 'CSS3', icon: CssIcon },
   { name: 'Tailwind CSS', icon: TailwindCSS },
+  { name: 'Docker', icon: DockerIcon },
 ]
 
-// Footer Links
 export const footerLinks = [
   { title: 'About', href: '#about' },
   { title: 'Skills', href: '#skills' },
@@ -51,7 +71,6 @@ export const footerLinks = [
   { title: 'Contact', href: '#contact' },
 ]
 
-// Theme Options
 export const themes = [
   {
     name: 'Light',
@@ -63,5 +82,4 @@ export const themes = [
   },
 ]
 
-// Language Options
 export const languages = ['En', 'Hu']

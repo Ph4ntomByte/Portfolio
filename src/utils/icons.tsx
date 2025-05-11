@@ -13,13 +13,17 @@ import Star from '../assets/icons/star.svg'
 import TailwindCSS from '../assets/icons/tailwind-css.svg'
 import Timer from '../assets/icons/timer.svg'
 import TypescriptIcon from '../assets/icons/typescript.svg'
+import PythonIcon from '../assets/icons/PythonIcon.png'
+import JavaIcon from '../assets/icons/JavaIcon.svg'
+import CssIcon from '../assets/icons/CSSIcon.png'
+import DockerIcon from '../assets/icons/docker.svg'
+
 
 const PreviewIcon: FC<SVGProps<SVGSVGElement>> = (props) => {
   return (
     <svg
       width="18"
       height="20"
-      // className="text-accent"
       viewBox="0 0 20 19"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -307,6 +311,10 @@ const PhoneIcon: FC<SVGProps<SVGSVGElement>> = (props) => {
 }
 
 export {
+  DockerIcon,
+  CssIcon,
+  JavaIcon,
+  PythonIcon,
   ArrowLeftIcon,
   ArrowRightIcon,
   BurgerIcon,
