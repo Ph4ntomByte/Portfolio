@@ -8,7 +8,10 @@ import {
   PythonIcon,
   JavaIcon,
   CssIcon,
-  DockerIcon
+  DockerIcon,
+  TsIcon,
+  GithubIcon,
+  VercelIcon
 } from '../utils/icons'
 
 // Service Data
@@ -47,6 +50,16 @@ export const serviceData = [
     icon: DockerIcon,
     title: 'Containerization',
     shortDescription: 'Dockerizing apps for consistent deployment.',
+  },
+  {
+    icon: TsIcon,
+    title: 'TypeScript',
+    shortDescription: 'Strongly-typed JavaScript for safer, scalable codebases.',
+  },
+  {
+    icon: VercelIcon, 
+    title: 'Vercel Deployment',
+    shortDescription: 'Instant deployments with built-in CI/CD and analytics.',
   },
 ]
 

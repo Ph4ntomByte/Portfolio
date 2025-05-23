@@ -1,3 +1,4 @@
+'use client'
 import { FC, SVGProps } from 'react'
 
 import Earning from '../assets/icons/earning.svg'
@@ -17,6 +18,8 @@ import PythonIcon from '../assets/icons/PythonIcon.png'
 import JavaIcon from '../assets/icons/JavaIcon.svg'
 import CssIcon from '../assets/icons/CSSIcon.png'
 import DockerIcon from '../assets/icons/docker.svg'
+import TsIcon from '../assets/icons/typescript.svg'
+import VercelIcon from '../assets/icons/vercel.svg'
 
 
 const PreviewIcon: FC<SVGProps<SVGSVGElement>> = (props) => {
@@ -311,6 +314,8 @@ const PhoneIcon: FC<SVGProps<SVGSVGElement>> = (props) => {
 }
 
 export {
+  VercelIcon,
+  TsIcon,
   DockerIcon,
   CssIcon,
   JavaIcon,
