@@ -1,9 +1,8 @@
 {
-  "priority": 1,
-  "title": "Study Together",
-  "shortDescription": "Flask-powered collaborative platform for scheduling and joining co-study sessions, complete with real-time chat and session tracking.",
-  "cover": "/images/study.png",
-  "type": "Open Source",
-  "livePreview": "http://studentlifeishell.me:5000/",
-  "githubLink": "https://github.com/Ph4ntomByte/Study_Together"
+    "priority": 1,
+    "title": "Summer Training Camp",
+    "shortDescription": "A Website for the 7th Summer Training Camp for the European Youth Parliament",
+    "cover": "/images/stc.png",
+    "type": "Open Source",
+    "githubLink": "https://github.com/Ph4ntomByte/Summer_Training_Camp.git"
 }
