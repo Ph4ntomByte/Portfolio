@@ -1,0 +1,9 @@
+{
+  "priority": 6,
+  "title": "Study Together",
+  "shortDescription": "Flask-powered collaborative platform for scheduling and joining co-study sessions, complete with real-time chat and session tracking.",
+  "cover": "/images/study.png",
+  "type": "Open Source",
+  "livePreview": "http://studentlifeishell.me:5000/",
+  "githubLink": "https://github.com/Ph4ntomByte/Study_Together"
+}
