@@ -22,7 +22,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
     ratings,
     githubStars,
     numberOfSales,
-    livePreview,
+    liveView,
     githubLink,
     siteAge,
     type,
@@ -69,9 +69,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
           <p className="text-[14px] font-normal md:text-base">{shortDescription}</p>
         </div>
         <div className="flex gap-5">
-          {livePreview && (
+          {liveView && (
             <a
-              href={livePreview}
+              href={liveView}
               className="text-accent flex gap-2 text-sm underline underline-offset-[3px] transition-all duration-75 ease-linear hover:scale-105 md:text-base"
               target="_blank">
               <PreviewIcon className="h-auto w-[18px] md:w-5" />
