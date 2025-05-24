@@ -1,9 +1,9 @@
 {
   "priority": 4,
-  "title": "Insta-to-Video TB Bot",
-  "shortDescription": "A Telegram bot that fetches and forwards Instagram Reels directly in chat, built with Instaloader and Python-Telegram-Bot.",
-  "cover": "/images/insta-to-tg.png",
-  "type": "Open Source",
-  "technologies": ["Python", "Instaloader", "Telegram Bot API"],
-  "githubLink": "https://github.com/Ph4ntomByte/insta-to-video-tb-bot"
+  "title": "Web Prog Evolutions",
+  "shortDescription": "A browser-based puzzle game that traces the history of web dev tech by having you connect evolution chains across multiple timelines.",
+  "cover": "/images/Evolution_menu.png",
+  "type": "Course Project",
+  "technologies": ["HTML5", "CSS3", "JavaScript"],
+  "githubLink": "https://github.com/Ph4ntomByte/Evolution-Game"
 }

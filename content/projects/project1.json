@@ -4,5 +4,6 @@
     "shortDescription": "A Website for the 7th Summer Training Camp for the European Youth Parliament",
     "cover": "/images/stc.png",
     "type": "Open Source",
+    "liveView": "https://eyp-summer-camp-website.vercel.app/",
     "githubLink": "https://github.com/Ph4ntomByte/Summer_Training_Camp.git"
 }
