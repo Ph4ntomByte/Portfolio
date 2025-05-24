@@ -1,9 +1,9 @@
 {
   "priority": 6,
-  "title": "Study Together",
-  "shortDescription": "Flask-powered collaborative platform for scheduling and joining co-study sessions, complete with real-time chat and session tracking.",
-  "cover": "/images/study.png",
+  "title": "Insta-to-Video TB Bot",
+  "shortDescription": "A Telegram bot that fetches and forwards Instagram Reels directly in chat, built with Instaloader and Python-Telegram-Bot.",
+  "cover": "/images/insta-to-tg.png",
   "type": "Open Source",
-  "livePreview": "http://studentlifeishell.me:5000/",
-  "githubLink": "https://github.com/Ph4ntomByte/Study_Together"
+  "technologies": ["Python", "Instaloader", "Telegram Bot API"],
+  "githubLink": "https://github.com/Ph4ntomByte/insta-to-video-tb-bot"
 }

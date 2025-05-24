@@ -1,9 +1,9 @@
 {
   "priority": 2,
-  "title": "Web Prog Evolutions",
-  "shortDescription": "A browser-based puzzle game that traces the history of web dev tech by having you connect evolution chains across multiple timelines.",
-  "cover": "/images/Evolution_menu.png",
-  "type": "Course Project",
-  "technologies": ["HTML5", "CSS3", "JavaScript"],
-  "githubLink": "https://github.com/Ph4ntomByte/Evolution-Game"
+  "title": "Study Together",
+  "shortDescription": "Flask-powered collaborative platform for scheduling and joining co-study sessions, complete with real-time chat and session tracking.",
+  "cover": "/images/study.png",
+  "type": "Open Source",
+  "liveView": "http://studentlifeishell.me:5000/",
+  "githubLink": "https://github.com/Ph4ntomByte/Study_Together"
 }
