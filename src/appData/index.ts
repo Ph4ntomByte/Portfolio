@@ -95,4 +95,3 @@ export const themes = [
   },
 ]
 
-export const languages = ['En', 'Hu']
