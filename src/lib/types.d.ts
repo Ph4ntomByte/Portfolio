@@ -3,7 +3,7 @@ export interface Project {
   shortDescription: string
   priority: number
   cover: string
-  livePreview?: string
+  liveView?: string
   githubLink?: string
   visitors?: string
   earned?: string

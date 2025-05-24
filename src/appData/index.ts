@@ -10,7 +10,6 @@ import {
   CssIcon,
   DockerIcon,
   TsIcon,
-  GithubIcon,
   VercelIcon
 } from '../utils/icons'
 
