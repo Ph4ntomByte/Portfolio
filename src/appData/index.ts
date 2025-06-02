@@ -10,7 +10,8 @@ import {
   CssIcon,
   DockerIcon,
   TsIcon,
-  VercelIcon
+  VercelIcon,
+  RestAPI
 } from '../utils/icons'
 
 // Service Data
@@ -56,9 +57,9 @@ export const serviceData = [
     shortDescription: 'Strongly-typed JavaScript for safer, scalable codebases.',
   },
   {
-    icon: VercelIcon, 
-    title: 'Vercel Deployment',
-    shortDescription: 'Instant deployments with built-in CI/CD and analytics.',
+    icon: RestAPI, 
+    title: 'RESTful API Design & Integration',
+    shortDescription: 'Build and maintain RESTful APIs to exchange data with front-end or external services.',
   },
 ]
 
