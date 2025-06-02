@@ -10,7 +10,6 @@ import {
   CssIcon,
   DockerIcon,
   TsIcon,
-  VercelIcon,
   RestAPI
 } from '../utils/icons'
 
