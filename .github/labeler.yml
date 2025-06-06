@@ -1,24 +1,48 @@
-# .github/labeler.yml
+frontend:
+  - "src/app/**"
+  - "src/components/**"
+  - "src/hooks/**"
+  - "src/utils/**"
+  - "src/appData/**"
+  - "public/images/**"
+  - "src/assets/images/**"
+  - "src/assets/icons/**"
 
-# If any file under `src/api/` changes, automatically apply the "api" label.
-api:
-  - "src/api/**"
+backend:
+  - "src/actions/**"
+  - "src/services/**"
+  - "src/lib/**"
+  - "src/app/actions/**"
 
-# If any file under `src/ui/` changes, automatically apply the "ui" label.
-ui:
-  - "src/ui/**"
-
-# If documentation files under `docs/` change, automatically apply "documentation".
-documentation:
-  - "docs/**"
-  - "README.md"
-
-# If any Docker-related files change, apply the "infrastructure" label.
 infrastructure:
   - "Dockerfile"
   - "docker-compose.yml"
-  - "infra/**"
-
-# If workflow or GitHub Actions config changes, apply "ci/cd".
-ci/cd:
+  - ".github/workflows/deploy.yml"
   - ".github/workflows/**"
+
+configuration:
+  - "next.config.ts"
+  - "tsconfig.json"
+  - "postcss.config.mjs"
+  - "package.json"
+  - "package-lock.json"
+  - ".eslintrc.*"
+  - ".prettierrc.*"
+
+content:
+  - "content/**"
+
+docs:
+  - "README.md"
+  - "CNAME"
+  - "README-*.md"
+  - "docs/**"
+
+assets:
+  - "src/assets/**"
+  - "public/images/**"
+
+tests:
+  - "**/*.test.*"
+  - "**/*.spec.*"
+  - "jest.config.js"
