@@ -1,0 +1,24 @@
+# .github/labeler.yml
+
+# If any file under `src/api/` changes, automatically apply the "api" label.
+api:
+  - "src/api/**"
+
+# If any file under `src/ui/` changes, automatically apply the "ui" label.
+ui:
+  - "src/ui/**"
+
+# If documentation files under `docs/` change, automatically apply "documentation".
+documentation:
+  - "docs/**"
+  - "README.md"
+
+# If any Docker-related files change, apply the "infrastructure" label.
+infrastructure:
+  - "Dockerfile"
+  - "docker-compose.yml"
+  - "infra/**"
+
+# If workflow or GitHub Actions config changes, apply "ci/cd".
+ci/cd:
+  - ".github/workflows/**"
