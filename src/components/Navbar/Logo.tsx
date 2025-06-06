@@ -31,7 +31,7 @@ const Logo = (props: React.SVGProps<SVGSVGElement>) => {
           x2="21.3798"
           y2="16.5705"
           gradientUnits="userSpaceOnUse">
-          <stop stopColor="var(--gradient-start)" />
+          <stop stopColor="#2563eb" />
           <stop offset="0.1482" stopColor="var(--gradient-start)" stopOpacity="0.85" />
           <stop offset="0.4004" stopColor="var(--gradient-start)" stopOpacity="0.6" />
           <stop offset="0.7237" stopColor="var(--gradient-mid)" stopOpacity="0.2763" />

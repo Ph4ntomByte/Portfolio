@@ -4,6 +4,7 @@ import Footer from '@/components/Footer/Footer'
 import Navbar from '@/components/Navbar/Navbar'
 import ThemeMenu from '@/components/Theme/ThemeMenu'
 import { Fira_Code } from 'next/font/google'
+import AOSProvider from '@/components/AOSProvider';
 
 const firaCode = Fira_Code({ subsets: ['latin'], weight: ['300','400','500','600','700'] })
 
@@ -40,7 +41,9 @@ export default function RootLayout({
     <html lang="en" data-theme="dark">
       <body className={firaCode.className}>
         <header><Navbar /></header>
-        {children}
+        <AOSProvider>
+          {children}
+        </AOSProvider>
         <ThemeMenu />
         <Footer />
       </body>
