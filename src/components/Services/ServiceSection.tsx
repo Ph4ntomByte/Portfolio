@@ -1,10 +1,21 @@
 'use client'
 
+import { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 import { serviceData } from '../../appData'
 import SectionHeading from '../SectionHeading/SectionHeading'
 import ServiceCard from './ServiceCard'
 
 const ServiceSection = () => {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+      duration: 600,
+      easing: 'ease-in-out',
+    })
+  }, [])
+
   return (
     <section id="services" className="my-14">
       <SectionHeading title="Areas of Expertise" />
