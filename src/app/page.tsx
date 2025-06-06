@@ -11,12 +11,22 @@ export default async function Home() {
 
   return (
     <main>
-      <Hero />
-      <Skills skills={skillList} />
+      <div data-aos="fade-down" data-aos-duration="700">
+        <Hero />
+      </div>
+      <div data-aos="fade-left" data-aos-duration="700" data-aos-delay="100">
+        <Skills skills={skillList} />
+      </div>
       <div className="mx-auto my-8 max-w-[1200px] px-4 md:my-[3.75rem]">
-        <ProjectSection projects={projects} />
-        <ServiceSection />
-        <ContactSection />
+        <div data-aos="fade-up" data-aos-duration="700" data-aos-delay="200">
+          <ProjectSection projects={projects} />
+        </div>
+        <div data-aos="fade-up" data-aos-duration="700" data-aos-delay="300">
+          <ServiceSection />
+        </div>
+        <div data-aos="fade-up" data-aos-duration="700" data-aos-delay="400">
+          <ContactSection />
+        </div>
       </div>
     </main>
   )
