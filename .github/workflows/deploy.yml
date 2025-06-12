@@ -26,5 +26,9 @@ jobs:
           cd /home/opc/profile
           git pull origin main
           npm install
-          npm run build
-          pm2 restart profile || pm2 start npm --name profile -- start
+
+          # optional: re-build if needed (for Next.js or production setup)
+          # npm run build
+
+          pm2 start npm --name profile -- run dev -- --hostname 0.0.0.0 --port 3000 || pm2 restart profile
+          pm2 save
