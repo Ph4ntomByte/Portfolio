@@ -20,6 +20,7 @@ import CssIcon from '../assets/icons/CSSIcon.png'
 import DockerIcon from '../assets/icons/docker.svg'
 import TsIcon from '../assets/icons/typescript.svg'
 import RestAPI from '../assets/icons/rest.png'
+import Ruby from '../assets/icons/ruby.png'
 
 
 const PreviewIcon: FC<SVGProps<SVGSVGElement>> = (props) => {
@@ -349,4 +350,5 @@ export {
   Timer,
   TypescriptIcon,
   X,
+  Ruby
 }

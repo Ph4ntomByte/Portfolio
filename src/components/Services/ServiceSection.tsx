@@ -2,7 +2,6 @@
 
 import { useEffect } from 'react'
 import AOS from 'aos'
-import 'aos/dist/aos.css'
 import { serviceData } from '../../appData'
 import SectionHeading from '../SectionHeading/SectionHeading'
 import ServiceCard from './ServiceCard'

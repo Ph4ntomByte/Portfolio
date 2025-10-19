@@ -10,10 +10,10 @@ import {
   CssIcon,
   DockerIcon,
   TsIcon,
-  RestAPI
+  RestAPI,
+  Ruby
 } from '../utils/icons'
 
-// Service Data
 export const serviceData = [
   {
     icon: ReactIcon,
@@ -64,6 +64,7 @@ export const serviceData = [
 
 export const skillList = [
   { name: 'JavaScript', icon: JavaScriptIcon },
+  { name: 'Ruby', icon: Ruby },
   { name: 'TypeScript', icon: TypescriptIcon },
   { name: 'React.js', icon: ReactIcon },
   { name: 'Next.js', icon: NextjsIcon },
