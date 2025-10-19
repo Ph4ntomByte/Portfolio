@@ -1,17 +1,20 @@
-import type { Metadata } from 'next'
-import './globals.css'
-import Footer from '@/components/Footer/Footer'
-import Navbar from '@/components/Navbar/Navbar'
-import ThemeMenu from '@/components/Theme/ThemeMenu'
-import { Fira_Code } from 'next/font/google'
+import type { Metadata } from 'next';
+import './globals.css';
+import Footer from '@/components/Footer/Footer';
+import Navbar from '@/components/Navbar/Navbar';
+import ThemeMenu from '@/components/Theme/ThemeMenu';
+import { Fira_Code } from 'next/font/google';
 import AOSProvider from '@/components/AOSProvider';
 
-const firaCode = Fira_Code({ subsets: ['latin'], weight: ['300','400','500','600','700'] })
+const firaCode = Fira_Code({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700'],
+});
 
-const title = 'Rauf | 2nd‑Year CS Student & Full‑Stack Developer at ELTE'
+const title = 'Rauf | 2nd‑Year CS Student & Full‑Stack Developer at ELTE';
 const description =
-  'Ambitious Computer Science student at ELTE Budapest, building high‑impact web & Java applications. Expert in React, Next.js, Node.js, Python & Java. Created Telegram bots, Java board games, Java Swing UIs, and browser puzzle games with persistence & leaderboards. Ready to drive your next project forward!'
-const url = process.env.NEXT_PUBLIC_SITE_URL || 'https://studentlifeishell.me'
+  'Ambitious Computer Science student at ELTE Budapest, building high‑impact web & Java applications. Expert in React, Next.js, Node.js, Python & Java. Created Telegram bots, Java board games, Java Swing UIs, and browser puzzle games with persistence & leaderboards. Ready to drive your next project forward!';
+const url = process.env.NEXT_PUBLIC_SITE_URL || 'https://studentlifeishell.me';
 
 export const metadata: Metadata = {
   title,
@@ -32,7 +35,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     creator: '@RaufDev',
   },
-}
+};
 
 export default function RootLayout({
   children,
@@ -40,13 +43,13 @@ export default function RootLayout({
   return (
     <html lang="en" data-theme="dark">
       <body className={firaCode.className}>
-        <header><Navbar /></header>
-        <AOSProvider>
-          {children}
-        </AOSProvider>
+        <header>
+          <Navbar />
+        </header>
+        <AOSProvider>{children}</AOSProvider>
         <ThemeMenu />
         <Footer />
       </body>
     </html>
-  )
+  );
 }

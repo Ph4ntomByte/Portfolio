@@ -7,7 +7,7 @@ import Ellipse from './Ellipse'
 
 const Hero = () => {
   const ellipseRef = useRotatingAnimation()
-  const role = useRoleSwitcher({ roles: ['FULL-STACK DEVELOPER', 'CS STUDENT', 'Java programmer'] })
+  const role = useRoleSwitcher({ roles: ['learning how to make tech less annoying', 'balancing code, people, and way too many tabs'] })
 
   return (
     <section className="bg-primary bg-small-glow bg-small-glow-position md:bg-large-glow-position lg:bg-large-glow min-h-[calc(dvh-4rem)] bg-no-repeat">
@@ -19,7 +19,8 @@ const Hero = () => {
           </h1>
 
           <h2 className="text-neutral mt-3">
-            Building modern web apps and solving complex problems
+            3rd year Computer Science student at ELTE <br />
+            Full Stack Developer Intern at the European Youth Parliament.
           </h2>
 
           <div className="mt-6 flex flex-wrap gap-6">
