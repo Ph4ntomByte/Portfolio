@@ -12,6 +12,10 @@ const navItems = [
     href: '/',
   },
   {
+    label: '_experience',
+    href: '/#experience',
+  },
+  {
     label: '_projects',
     href: '/#projects',
   },
