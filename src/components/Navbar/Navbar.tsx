@@ -20,10 +20,6 @@ const navItems = [
     href: '/#projects',
   },
   {
-    label: '_services',
-    href: '/#services',
-  },
-  {
     label: '_contact-me',
     href: '/#contact',
   },
