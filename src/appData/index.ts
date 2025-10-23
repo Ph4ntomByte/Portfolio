@@ -78,9 +78,9 @@ export const skillList = [
 
 export const footerLinks = [
   { title: 'About', href: '#about' },
-  { title: 'Skills', href: '#skills' },
   { title: 'Experience', href: '#experience'},
   { title: 'Projects', href: '#projects' },
+  { title: 'Skills', href: '#services' },
   { title: 'Contact', href: '#contact' },
 ]
 
