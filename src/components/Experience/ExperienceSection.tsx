@@ -40,7 +40,7 @@ const experiences = [
 
 const ExperienceSection = () => (
     <section id="experience" className="py-10 max-w-6xl mx-auto flex flex-col gap-6">
-      <SectionHeading title="Projects" />
+      <SectionHeading title="Experience" />
         {experiences.map((exp, i) => (
             <ExperienceCard key={i} data={exp} />
         ))}
