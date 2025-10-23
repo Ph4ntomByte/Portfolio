@@ -5,13 +5,6 @@ import Image from 'next/image'
 import { GithubIcon, PreviewIcon } from '../../utils/icons'
 import { Wrench } from 'lucide-react'
 
-const IconText: React.FC<{ icon: string; text: string }> = ({ icon, text }) => (
-  <li className="flex gap-2">
-    <Image src={icon} alt={text} className="size-[18px] md:size-5" />
-    <span className="text-neutral text-sm">{text}</span>
-  </li>
-)
-
 interface ProjectCardProps {
   data: Project
 }
