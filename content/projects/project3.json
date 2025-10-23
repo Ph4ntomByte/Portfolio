@@ -1,8 +1,12 @@
 {
   "priority": 3,
-  "title": "CityMANIA",
+  "title": "Cities Game",
   "shortDescription": "Java Swing multiplayer city-name game with custom dialogs, dynamic map loading, and real-time validation.",
   "cover": "/images/city.png",
-  "type": "Academic Project",
-  "githubLink": "https://github.com/Ph4ntomByte/CityMANIA"
+  "tech": [
+    "Java",
+    "Swing"
+  ],
+  "type": "Open Source",
+  "githubLink": "https://github.com/Ph4ntomByte/Cities.git"
 }

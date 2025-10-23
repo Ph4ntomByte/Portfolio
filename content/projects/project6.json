@@ -4,6 +4,10 @@
   "shortDescription": "A Telegram bot that fetches and forwards Instagram Reels directly in chat, built with Instaloader and Python-Telegram-Bot.",
   "cover": "/images/insta-to-tg.png",
   "type": "Open Source",
-  "technologies": ["Python", "Instaloader", "Telegram Bot API"],
+  "tech": [
+    "Python",
+    "Instaloader",
+    "Telegram Bot API"
+  ],
   "githubLink": "https://github.com/Ph4ntomByte/insta-to-video-tb-bot"
 }

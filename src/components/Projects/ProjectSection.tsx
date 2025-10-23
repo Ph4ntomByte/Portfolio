@@ -15,8 +15,8 @@ const ProjectSection: React.FC<ProjectSectionProps> = ({ projects }) => {
         {projects.map((project, idx) => (
           <div
             key={project.priority}
-            data-aos="flip-left"
-            data-aos-duration="1000"
+            data-aos="fade-up"
+            data-aos-duration="500"
             data-aos-delay={`${idx * 100}`}
           >
             <ProjectCard data={project} />
