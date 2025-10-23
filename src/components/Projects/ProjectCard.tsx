@@ -35,12 +35,22 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
 
   return (
     <div 
-      className="relative h-[320px] w-full cursor-pointer perspective"
+      className="relative h-[320px] w-full cursor-pointer"
+      style={{ perspective: '1000px' }}
       onMouseEnter={() => setIsFlipped(true)}
       onMouseLeave={() => setIsFlipped(false)}
     >
-      <div className={`relative h-full w-full transition-transform duration-1000 transform-style-preserve-3d ${isFlipped ? 'rotate-y-180' : ''}`}>
-        <div className="absolute inset-0 flex items-center justify-center rounded-[14px] border border-border bg-secondary backface-hidden p-5">
+      <div 
+        className="relative h-full w-full transition-transform duration-1500"
+        style={{ 
+          transformStyle: 'preserve-3d',
+          transform: isFlipped ? 'rotateY(180deg)' : 'rotateY(0deg)'
+        }}
+      >
+        <div 
+          className="absolute inset-0 flex items-center justify-center rounded-[14px] border border-border bg-secondary p-5"
+          style={{ backfaceVisibility: 'hidden' }}
+        >
           <Image
             src={cover}
             width={400}
@@ -50,19 +60,17 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
           />
         </div>
 
-        <div className="absolute inset-0 rounded-[14px] border border-border bg-secondary rotate-y-180 backface-hidden">
+        <div 
+          className="absolute inset-0 rounded-[14px] border border-border bg-secondary"
+          style={{ 
+            backfaceVisibility: 'hidden',
+            transform: 'rotateY(180deg)'
+          }}
+        >
           <div className="flex h-full flex-col p-5">
             <div className="flex items-start justify-between gap-2">
               <div className="flex-1">
-                <div className="flex flex-col flex-wrap gap-3 sm:flex-row sm:items-center">
-                  <h3 className="text-secondary-content text-lg font-medium md:font-semibold">{title}</h3>
-                  {type && (
-                    <span
-                      className={`h-7 w-fit rounded-md bg-[#FFFFFF1A] p-1 text-sm ${type === 'New 🔥' ? 'animate-blink text-tag' : 'text-accent'} backdrop-blur-[80px]`}>
-                      {type}
-                    </span>
-                  )}
-                </div>
+                <h3 className="text-secondary-content text-lg font-medium md:font-semibold">{title}</h3>
                 <ul className="mt-3 flex flex-col flex-wrap gap-2 sm:flex-row sm:gap-4">
                   {(visitors || numberOfSales) && (
                     <IconText text={(visitors || numberOfSales)?.toString() || ''} icon={Likes} />
@@ -80,24 +88,32 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
               <p className="text-[14px] font-normal md:text-base">{shortDescription}</p>
             </div>
             
-            <div className="flex gap-5">
-              {liveView && (
-                <a
-                  href={liveView}
-                  className="text-accent flex gap-2 text-sm underline underline-offset-[3px] transition-all duration-75 ease-linear hover:scale-105 md:text-base"
-                  target="_blank">
-                  <PreviewIcon className="h-auto w-[18px] md:w-5" />
-                  <span>Live Preview</span>
-                </a>
-              )}
-              {githubLink && (
-                <a
-                  href={githubLink}
-                  className="text-accent flex gap-2 text-sm underline underline-offset-[3px] transition-all duration-75 ease-linear hover:scale-105 md:text-base"
-                  target="_blank">
-                  <GithubIcon className="w-[18px] md:w-5" />
-                  <span>Github Link</span>
-                </a>
+            <div className="flex items-center justify-between gap-3">
+              <div className="flex gap-5">
+                {liveView && (
+                  <a
+                    href={liveView}
+                    className="text-accent flex gap-2 text-sm underline underline-offset-[3px] transition-all duration-75 ease-linear hover:scale-105 md:text-base"
+                    target="_blank">
+                    <PreviewIcon className="h-auto w-[18px] md:w-5" />
+                    <span>Live Preview</span>
+                  </a>
+                )}
+                {githubLink && (
+                  <a
+                    href={githubLink}
+                    className="text-accent flex gap-2 text-sm underline underline-offset-[3px] transition-all duration-75 ease-linear hover:scale-105 md:text-base"
+                    target="_blank">
+                    <GithubIcon className="w-[18px] md:w-5" />
+                    <span>Github Link</span>
+                  </a>
+                )}
+              </div>
+              {type && (
+                <span
+                  className={`h-7 w-fit rounded-md bg-[#FFFFFF1A] px-2 py-1 text-sm ${type === 'New 🔥' ? 'animate-blink text-tag' : 'text-accent'} backdrop-blur-[80px]`}>
+                  {type}
+                </span>
               )}
             </div>
           </div>
