@@ -1,5 +1,5 @@
-import { MsgIcon } from '@/utils/icons'
 import ContactForm from './ContactForm'
+import { CodeAnimation } from '@/components/Contact/CodeAnimation'
 
 const ContactSection = () => {
   return (
@@ -13,13 +13,8 @@ const ContactSection = () => {
           </p>
         </div>
 
-        <div className="space-y-2">
-          <p className="text-neutral text-lg font-bold">Contact Information</p>
-          <a
-            href="mailto:"
-            className="text-neutral hover:text-accent flex items-center gap-1 font-light transition-colors duration-300">
-            <MsgIcon /> 
-          </a>
+        <div className="bg-secondary rounded-2xl p-6 border border-border h-full min-h-[400px]">
+          <CodeAnimation /> 
         </div>
       </div>
 

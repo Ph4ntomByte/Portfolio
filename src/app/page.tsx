@@ -3,7 +3,7 @@ import ContactSection from '@/components/Contact/ContactSection'
 import Hero from '@/components/Hero/Hero'
 import ProjectSection from '@/components/Projects/ProjectSection'
 import ExperienceSection from '@/components/Experience/ExperienceSection'
-import ExpertiseSection from '@/components/Services/ExpertiseSection'
+import ExpertiseSection from '@/components/Expertise/ExpertiseSection'
 import Skills from '@/components/Skills/Skills'
 import { getAllProjects } from '@/services'
 
