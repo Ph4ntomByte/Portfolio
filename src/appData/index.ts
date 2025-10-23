@@ -81,7 +81,6 @@ export const footerLinks = [
   { title: 'Skills', href: '#skills' },
   { title: 'Experience', href: '#experience'},
   { title: 'Projects', href: '#projects' },
-  { title: 'Services', href: '#services' },
   { title: 'Contact', href: '#contact' },
 ]
 
