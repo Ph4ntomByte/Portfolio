@@ -3,6 +3,7 @@ import SectionHeading from '../SectionHeading/SectionHeading';
 
 const experiences = [
     {
+        logo: "/images/eyp.png",
         role: 'Full Stack Developer Intern',
         organization: 'European Youth Parliament (Remote)',
         date: 'Jun 2025 – Present',
@@ -14,6 +15,7 @@ const experiences = [
         tech: ['Ruby on rails', 'Next.js', 'PostgreSQL'],
     },
     {
+        logo: "/images/socar-fugro.png",
         role: 'IT Intern',
         organization: 'Socar Fugro',
         location: 'Baku, Azerbaijan',
@@ -27,6 +29,7 @@ const experiences = [
 
     },
     {
+        logo: "/images/eyp.png",
         role: 'National Coordination member',
         organization: 'European Youth Parliament',
         date: '2023 – Present',
