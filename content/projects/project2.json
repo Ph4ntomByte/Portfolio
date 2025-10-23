@@ -4,5 +4,12 @@
   "shortDescription": "Flask-powered collaborative platform for scheduling and joining co-study sessions, complete with real-time chat and session tracking.",
   "cover": "/images/study.png",
   "type": "Open Source",
+  "tech": [
+    "React",
+    "Next.js",
+    "JavaScript",
+    "Node.js",
+    "HTML/CSS"
+  ],
   "githubLink": "https://github.com/Ph4ntomByte/Study_Together"
 }

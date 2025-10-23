@@ -1,18 +1,8 @@
 "use client"
-
 import { useState } from 'react'
 import Image from 'next/image'
 import { Calendar, MapPin, Wrench } from 'lucide-react'
-
-interface Experience {
-  logo: string
-  role: string
-  organization: string
-  location?: string
-  date: string
-  description: string[]
-  tech?: string[]
-}
+import { Experience } from '@/lib/types'
 
 interface ExperienceCardProps {
   data?: Experience

@@ -1,17 +1,12 @@
-export interface Project {
+interface Project {
+  priority: int
   title: string
   shortDescription: string
-  priority: number
-  cover: string
   liveView?: string
   githubLink?: string
-  visitors?: string
-  earned?: string
-  githubStars?: string
-  ratings?: string
-  numberOfSales?: string
-  type: string
-  siteAge?: string
+  type?: string
+  cover: string
+  tech?: string[] 
 }
 
 export interface Heading {
@@ -27,4 +22,14 @@ export interface Testimonial {
   image: string
   stars: number
   createdAt: string
+}
+
+interface Experience {
+  logo: string
+  role: string
+  organization: string
+  location?: string
+  date: string
+  description: string[]
+  tech?: string[]
 }
