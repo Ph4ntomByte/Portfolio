@@ -18,21 +18,6 @@ export function CodeAnimation() {
     `// Searching for memes...\nawait fetch('/api/memes', {\n  method: 'GET',\n  body: JSON.stringify({ category: 'programming' })\n})`
   ]
 
-  const playTypeSound = () => {
-    const context = new (window.AudioContext || (window as any).webkitAudioContext)()
-    const oscillator = context.createOscillator()
-    const gainNode = context.createGain()
-
-    oscillator.connect(gainNode)
-    gainNode.connect(context.destination)
-
-    oscillator.frequency.setValueAtTime(800, context.currentTime)
-    gainNode.gain.setValueAtTime(0.05, context.currentTime)
-    gainNode.gain.exponentialRampToValueAtTime(0.001, context.currentTime + 0.1)
-
-    oscillator.start(context.currentTime)
-    oscillator.stop(context.currentTime + 0.1)
-  }
 
   useEffect(() => {
     const cursorInterval = setInterval(() => {
