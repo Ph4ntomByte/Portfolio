@@ -1,0 +1,26 @@
+frontend:
+  - "src/**"
+  - "public/**"
+  - "next.config.ts"
+  - "next-env.d.ts"
+
+content:
+  - "content/**"
+
+docker:
+  - "Dockerfile"
+  - "docker-compose.yml"
+
+config:
+  - "tsconfig.json"
+  - "postcss.config.mjs"
+  - "package.json"
+  - "package-lock.json"
+
+docs:
+  - "**/*.md"
+  - "README.md"
+  - "LICENSE"
+
+ci:
+  - ".github/**"
