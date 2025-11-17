@@ -1,5 +1,5 @@
 "use client"
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect} from 'react'
 
 export function CodeAnimation() {
   const [displayText, setDisplayText] = useState('')
